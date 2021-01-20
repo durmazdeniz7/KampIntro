@@ -10,13 +10,13 @@ namespace DegerVeReferansTipler
 
 
 
-
+            //İnt double bool değer tipleridir
             int sayi1 = 10;
             int sayi2 = 30;
             sayi1 = sayi2;
             sayi2 = 65; Console.WriteLine(sayi1.ToString());
 
-
+            //Referans tipleri 
             int[] sayilar1 = new int[] { 10, 20, 30 };
             int[] sayilar2 = new int[] { 100, 200, 300 };
 
